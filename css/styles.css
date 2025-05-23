@@ -9,7 +9,7 @@ body{
     margin: 0;
     padding: 200px;
     padding-bottom: 0;
-}
+} 
 span{
     text-decoration: underline;
 }
@@ -95,7 +95,7 @@ hr{
 
 .btn {
     font-size:15px;
-    font-family:Arial;
+    font-family:"Montserrat", sans-serif;
     width:162px;
     height: 80px;
     border-width:5px;
@@ -171,3 +171,28 @@ hr{
     padding: 100px 20px;
     text-align: right;
   }
+
+  .certifications {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #ffffff;
+}
+
+.certificate-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.certificate {
+  width: 300px;
+  text-align: center;
+  background: white;
+  padding: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+  
